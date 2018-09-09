@@ -7,18 +7,34 @@
         {
           "name": "We notice things already primed in memory or repeated often.",
           "children": [
-            { "name": "Availability heuristic", "wiki": 0, "example": "" },
-            { "name": "Attentional bias", "wiki": 0, "example": "" },
-            { "name": "Illusory truth effect", "wiki": 0, "example": "" },
-            { "name": "Mere exposure effect", "wiki": 0, "example": "" },
-            { "name": "Context effect", "wiki": 0, "example": "" },
-            { "name": "Cue-dependent forgetting", "wiki": 0, "example": "" },
-            { "name": "Mood-congruent memory bias", "wiki": 0, "example": "" },
-            { "name": "Frequency illusion", "wiki": 0, "example": "" },
-            { "name": "Baader-Meinhof Phenomenon", "wiki": 0, "example": "" },
-            { "name": "Empathy gap", "wiki": 0, "example": "" },
-            { "name": "Omission bias", "wiki": 0, "example": "" },
-            { "name": "Base rate fallacy", "wiki": 0, "example": "" }
+            { "name": "Availability heuristic", "wiki": 403396, "example": "" },
+            { "name": "Attentional bias", "wiki": 4741593, "example": "" },
+            {
+              "name": "Illusory truth effect",
+              "wiki": 40903837,
+              "example": ""
+            },
+            { "name": "Mere exposure effect", "wiki": 33984780, "example": "" },
+            { "name": "Context effect", "wiki": 37210110, "example": "" },
+            {
+              "name": "Cue-dependent forgetting",
+              "wiki": 2367207,
+              "example": ""
+            },
+            {
+              "name": "Mood-congruent memory bias",
+              "wiki": 3620898,
+              "example": ""
+            },
+            { "name": "Frequency illusion", "wiki": 42565587, "example": "" },
+            {
+              "name": "Baader-Meinhof Phenomenon",
+              "wiki": 42565895,
+              "example": ""
+            },
+            { "name": "Empathy gap", "wiki": 2426628, "example": "" },
+            { "name": "Omission bias", "wiki": 4740425, "example": "" },
+            { "name": "Base rate fallacy", "wiki": 732873, "example": "" }
           ]
         },
         {
