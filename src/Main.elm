@@ -3,7 +3,7 @@ module Main exposing (main)
 import Browser exposing (Document)
 import Browser.Navigation exposing (Key)
 import Cb exposing (cb)
-import Element exposing (Attribute, Color, Element, column, el, fill, height, html, maximum, newTabLink, none, padding, paragraph, px, rgb255, spacing, text, width, wrappedRow)
+import Element exposing (Attribute, Color, Element, centerX, centerY, column, el, fill, height, html, maximum, newTabLink, none, padding, paragraph, px, rgb255, row, spacing, text, width, wrappedRow)
 import Element.Input exposing (button)
 import Html exposing (Html)
 import Json.Decode as Decode exposing (Decoder)
@@ -31,7 +31,6 @@ init _ =
                     (Decode.field "children"
                         (Decode.list decodeBias)
                     )
-                |> Result.mapError (Debug.log "!")
                 |> Result.withDefault []
       }
     , Cmd.none
@@ -105,47 +104,70 @@ view model =
     , body =
         [ (case model.view of
             ViewAll ->
-                model.data
-                    |> List.map
-                        (\bias ->
-                            button []
-                                { onPress = Just <| GoTo <| ViewBias bias
-                                , label = el [] <| text bias.name
-                                }
-                        )
-                    |> column []
+                column [ spacing 10 ]
+                    [ el [] <| text "Biases"
+                    , model.data
+                        |> List.map
+                            (\bias ->
+                                button []
+                                    { onPress = Just <| GoTo <| ViewBias bias
+                                    , label = el [] <| text bias.name
+                                    }
+                            )
+                        |> column []
+                    ]
 
             ViewBias bias ->
-                bias.categories
-                    |> List.map
-                        (\category ->
-                            button []
-                                { onPress = Just <| GoTo <| ViewCategory category
-                                , label = el [] <| text category.name
-                                }
-                        )
-                    |> column []
+                column [ spacing 10 ]
+                    [ bias.categories
+                        |> List.map
+                            (\category ->
+                                button []
+                                    { onPress = Just <| GoTo <| ViewCategory category
+                                    , label = el [] <| text category.name
+                                    }
+                            )
+                        |> column []
+                    , button []
+                        { onPress = Just <| GoTo ViewAll
+                        , label = el [] <| text "Back to Start"
+                        }
+                    ]
 
             ViewCategory category ->
-                category.entries
-                    |> List.map
-                        (\entry ->
-                            button []
-                                { onPress = Just <| GoTo <| ViewEntry entry
-                                , label = el [] <| text entry.name
-                                }
-                        )
-                    |> column []
+                column [ spacing 10 ]
+                    [ el [] <| text <| "Category: " ++ category.name
+                    , category.entries
+                        |> List.map
+                            (\entry ->
+                                button []
+                                    { onPress = Just <| GoTo <| ViewEntry entry
+                                    , label = el [] <| text entry.name
+                                    }
+                            )
+                        |> column []
+                    , button []
+                        { onPress = Just <| GoTo ViewAll
+                        , label = el [] <| text "Back to Start"
+                        }
+                    ]
 
             ViewEntry entry ->
-                column []
-                    [ el [] <| text entry.name
-                    , newTabLink []
-                        { url = "https://en.wikipedia.org/wiki?curid=" ++ String.fromInt entry.wiki
-                        , label = book
+                column [ spacing 10 ]
+                    [ row [ spacing 5 ]
+                        [ el [] <| text entry.name
+                        , newTabLink []
+                            { url = "https://en.wikipedia.org/wiki?curid=" ++ String.fromInt entry.wiki
+                            , label = book
+                            }
+                        ]
+                    , button []
+                        { onPress = Just <| GoTo ViewAll
+                        , label = el [] <| text "Back to Start"
                         }
                     ]
           )
+            |> el [ centerX, centerY ]
             |> Element.layout []
         ]
     }
