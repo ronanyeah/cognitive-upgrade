@@ -4,8 +4,12 @@ import Browser exposing (Document)
 import Browser.Navigation exposing (Key)
 import Cb exposing (cb)
 import Element exposing (Attribute, Color, Element, centerX, centerY, column, el, fill, height, html, maximum, newTabLink, none, padding, paragraph, px, rgb255, row, spacing, text, width, wrappedRow)
+import Element.Background as Bg
+import Element.Border as Border
+import Element.Font as Font
 import Element.Input exposing (button)
 import Html exposing (Html)
+import Html.Attributes
 import Json.Decode as Decode exposing (Decoder)
 import Svg exposing (Svg, svg)
 import Svg.Attributes as SA
@@ -42,7 +46,9 @@ type Msg
 
 
 type alias Model =
-    { view : View, data : List Bias }
+    { view : View
+    , data : List Bias
+    }
 
 
 type alias Entry =
@@ -60,8 +66,8 @@ type alias Bias =
 type View
     = ViewAll
     | ViewBias Bias
-    | ViewCategory Category
-    | ViewEntry Entry
+    | ViewCategory Bias Category
+    | ViewEntry Bias Category Entry
 
 
 decodeName : Decoder String
@@ -102,75 +108,108 @@ view : Model -> Document Msg
 view model =
     { title = "Cognitive Upgrade"
     , body =
-        [ (case model.view of
+        [ Html.node "meta"
+            [ Html.Attributes.name "viewport"
+            , Html.Attributes.attribute "content"
+                "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+            ]
+            []
+        , (case model.view of
             ViewAll ->
-                column [ spacing 10 ]
-                    [ el [] <| text "Biases"
-                    , model.data
-                        |> List.map
-                            (\bias ->
-                                button []
-                                    { onPress = Just <| GoTo <| ViewBias bias
-                                    , label = el [] <| text bias.name
-                                    }
-                            )
-                        |> column []
-                    ]
+                model.data
+                    |> List.map
+                        (\bias ->
+                            button []
+                                { onPress = Just <| GoTo <| ViewBias bias
+                                , label = txt bias.name
+                                }
+                        )
+                    |> column [ spacing 10 ]
 
             ViewBias bias ->
-                column [ spacing 10 ]
-                    [ bias.categories
+                column [ spacing 20 ]
+                    [ button []
+                        { onPress = Just <| GoTo ViewAll
+                        , label = txt <| "Bias: " ++ bias.name
+                        }
+                    , bias.categories
                         |> List.map
                             (\category ->
                                 button []
-                                    { onPress = Just <| GoTo <| ViewCategory category
-                                    , label = el [] <| text category.name
+                                    { onPress = Just <| GoTo <| ViewCategory bias category
+                                    , label = txt <| "· " ++ category.name
                                     }
                             )
-                        |> column []
-                    , button []
-                        { onPress = Just <| GoTo ViewAll
-                        , label = el [] <| text "Back to Start"
-                        }
+                        |> column [ spacing 10 ]
+                    , reset
                     ]
 
-            ViewCategory category ->
-                column [ spacing 10 ]
-                    [ el [] <| text <| "Category: " ++ category.name
+            ViewCategory bias category ->
+                column [ spacing 20 ]
+                    [ button []
+                        { onPress = Just <| GoTo ViewAll
+                        , label = txt <| "Bias: " ++ bias.name
+                        }
+                    , button []
+                        { onPress = Just <| GoTo <| ViewBias bias
+                        , label = txt <| "Category: " ++ category.name
+                        }
                     , category.entries
                         |> List.map
                             (\entry ->
                                 button []
-                                    { onPress = Just <| GoTo <| ViewEntry entry
-                                    , label = el [] <| text entry.name
+                                    { onPress = Just <| GoTo <| ViewEntry bias category entry
+                                    , label = txt <| "· " ++ entry.name
                                     }
                             )
-                        |> column []
-                    , button []
-                        { onPress = Just <| GoTo ViewAll
-                        , label = el [] <| text "Back to Start"
-                        }
+                        |> column [ spacing 10 ]
+                    , reset
                     ]
 
-            ViewEntry entry ->
-                column [ spacing 10 ]
-                    [ row [ spacing 5 ]
-                        [ el [] <| text entry.name
-                        , newTabLink []
-                            { url = "https://en.wikipedia.org/wiki?curid=" ++ String.fromInt entry.wiki
-                            , label = book
-                            }
-                        ]
-                    , button []
+            ViewEntry bias category entry ->
+                column [ spacing 20 ]
+                    [ button []
                         { onPress = Just <| GoTo ViewAll
-                        , label = el [] <| text "Back to Start"
+                        , label = txt <| "Bias: " ++ bias.name
                         }
+                    , button []
+                        { onPress = Just <| GoTo <| ViewCategory bias category
+                        , label = txt <| "Category: " ++ category.name
+                        }
+                    , newTabLink []
+                        { url = "https://en.wikipedia.org/wiki?curid=" ++ String.fromInt entry.wiki
+                        , label =
+                            row [ spacing 5 ]
+                                [ el [] <| text entry.name
+                                , book
+                                ]
+                        }
+                    , reset
                     ]
           )
-            |> el [ centerX, centerY ]
-            |> Element.layout []
+            |> (\x ->
+                    column [ centerX, spacing 20 ]
+                        [ el [ Font.size 35, centerX ] <| text "Cognitive Upgrade"
+                        , x
+                        ]
+               )
+            |> Element.layout
+                [ padding 20
+                , Bg.color blue
+                , Font.color pink
+                , Font.size 25
+                , font
+                ]
         ]
     }
+
+
+reset : Element Msg
+reset =
+    button [ Border.rounded 10, Border.width 2, centerX, padding 10 ]
+        { onPress = Just <| GoTo ViewAll
+        , label = el [] <| text "Back to Start"
+        }
 
 
 svgFeatherIcon : String -> List (Svg msg) -> Html msg
@@ -195,3 +234,29 @@ book =
         , Svg.path [ SA.d "M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" ] []
         ]
         |> html
+
+
+pink : Color
+pink =
+    rgb255 164 103 152
+
+
+blue : Color
+blue =
+    rgb255 150 208 255
+
+
+font : Attribute msg
+font =
+    Font.family
+        [ Font.external
+            { name = "Oswald"
+            , url = "https://fonts.googleapis.com/css?family=Oswald"
+            }
+        , Font.sansSerif
+        ]
+
+
+txt : String -> Element msg
+txt =
+    text >> List.singleton >> paragraph []
