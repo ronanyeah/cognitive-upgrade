@@ -7,14 +7,22 @@
         {
           "name": "We notice things already primed in memory or repeated often.",
           "children": [
-            { "name": "Availability heuristic", "wiki": 403396, "example": "" },
+            {
+              "name": "Availability heuristic",
+              "wiki": 403396,
+              "example": ""
+            },
             { "name": "Attentional bias", "wiki": 4741593, "example": "" },
             {
               "name": "Illusory truth effect",
               "wiki": 40903837,
               "example": ""
             },
-            { "name": "Mere exposure effect", "wiki": 33984780, "example": "" },
+            {
+              "name": "Mere exposure effect",
+              "wiki": 33984780,
+              "example": ""
+            },
             { "name": "Context effect", "wiki": 37210110, "example": "" },
             {
               "name": "Cue-dependent forgetting",
@@ -40,55 +48,79 @@
         {
           "name": "Bizarre/funny/visually-striking/anthropomorphic things stick out more than non-bizarre/unfunny things.",
           "children": [
-            { "name": "Bizarreness effect", "wiki": 0, "example": "" },
-            { "name": "Humor effect", "wiki": 0, "example": "" },
-            { "name": "Von Restorff effect", "wiki": 0, "example": "" },
-            { "name": "Picture superiority effect", "wiki": 0, "example": "" },
-            { "name": "Self-relevance effect", "wiki": 0, "example": "" },
-            { "name": "Negativity bias", "wiki": 0, "example": "" }
+            { "name": "Bizarreness effect", "wiki": 40862351, "example": "" },
+            { "name": "Humor effect", "wiki": 905646, "example": "" },
+            { "name": "Von Restorff effect", "wiki": 903481, "example": "" },
+            {
+              "name": "Picture superiority effect",
+              "wiki": 903460,
+              "example": ""
+            },
+            {
+              "name": "Self-relevance effect",
+              "wiki": 35073980,
+              "example": ""
+            },
+            { "name": "Negativity bias", "wiki": 9445847, "example": "" }
           ]
         },
         {
           "name": "We notice when something has changed.",
           "children": [
-            { "name": "Anchoring", "wiki": 0, "example": "" },
-            { "name": "Conservatism", "wiki": 0, "example": "" },
-            { "name": "Contrast effect", "wiki": 0, "example": "" },
-            { "name": "Distinction bias", "wiki": 0, "example": "" },
-            { "name": "Focusing effect", "wiki": 0, "example": "" },
-            { "name": "Framing effect", "wiki": 0, "example": "" },
-            { "name": "Money illusion", "wiki": 0, "example": "" },
-            { "name": "Weber–Fechner law", "wiki": 0, "example": "" }
+            { "name": "Anchoring", "wiki": 751106, "example": "" },
+            { "name": "Conservatism", "wiki": 6675, "example": "" },
+            { "name": "Contrast effect", "wiki": 971922, "example": "" },
+            { "name": "Distinction bias", "wiki": 13987523, "example": "" },
+            { "name": "Focusing effect", "wiki": 4742205, "example": "" },
+            { "name": "Framing effect", "wiki": 8611708, "example": "" },
+            { "name": "Money illusion", "wiki": 1041023, "example": "" },
+            { "name": "Weber–Fechner law", "wiki": 273831, "example": "" }
           ]
         },
         {
           "name": "We are drawn to details that confirm our own existing beliefs",
           "children": [
-            { "name": "Confirmation bias", "wiki": 0, "example": "" },
-            { "name": "Congruence bias", "wiki": 0, "example": "" },
+            { "name": "Confirmation bias", "wiki": 59160, "example": "" },
+            { "name": "Congruence bias", "wiki": 3999072, "example": "" },
             {
               "name": "Post-purchase rationalization",
-              "wiki": 0,
+              "wiki": 5104707,
               "example": ""
             },
-            { "name": "Choice-supportive bias", "wiki": 0, "example": "" },
-            { "name": "Selective perception", "wiki": 0, "example": "" },
-            { "name": "Observer-expectancy effect", "wiki": 0, "example": "" },
-            { "name": "Experimenter's bias", "wiki": 0, "example": "" },
-            { "name": "Observer effect", "wiki": 0, "example": "" },
-            { "name": "Expectation bias", "wiki": 0, "example": "" },
-            { "name": "Ostrich effect", "wiki": 0, "example": "" },
-            { "name": "Subjective validation", "wiki": 0, "example": "" },
-            { "name": "Continued influence effect", "wiki": 0, "example": "" },
-            { "name": "Semmelweis reflex", "wiki": 0, "example": "" }
+            {
+              "name": "Choice-supportive bias",
+              "wiki": 2999259,
+              "example": ""
+            },
+            { "name": "Selective perception", "wiki": 889172, "example": "" },
+            {
+              "name": "Observer-expectancy effect",
+              "wiki": 855760,
+              "example": ""
+            },
+            { "name": "Experimenter's bias", "wiki": 887615, "example": "" },
+            { "name": "Observer effect", "wiki": 1437617, "example": "" },
+            { "name": "Expectation bias", "wiki": 20690225, "example": "" },
+            { "name": "Ostrich effect", "wiki": 11992699, "example": "" },
+            {
+              "name": "Subjective validation",
+              "wiki": 4587233,
+              "example": ""
+            },
+            {
+              "name": "Continued influence effect",
+              "wiki": 50688676,
+              "example": ""
+            },
+            { "name": "Semmelweis reflex", "wiki": 17805391, "example": "" }
           ]
         },
         {
           "name": "We notice flaws in others more easily than flaws in ourselves.",
           "children": [
-            { "name": "Bias blind spot", "wiki": 0, "example": "" },
-            { "name": "Naïve cynicism", "wiki": 0, "example": "" },
-            { "name": "Naïve realism", "wiki": 0, "example": "" }
+            { "name": "Bias blind spot", "wiki": 893668, "example": "" },
+            { "name": "Naïve cynicism", "wiki": 34988078, "example": "" },
+            { "name": "Naïve realism", "wiki": 612291, "example": "" }
           ]
         }
       ]
@@ -99,85 +131,153 @@
         {
           "name": "We find stories and patterns even in sparse data",
           "children": [
-            { "name": "Confabulation", "wiki": 0, "example": "" },
-            { "name": "Clustering illusion", "wiki": 0, "example": "" },
+            { "name": "Confabulation", "wiki": 33132746, "example": "" },
+            { "name": "Clustering illusion", "wiki": 547949, "example": "" },
             {
               "name": "Insensitivity to sample size",
-              "wiki": 0,
+              "wiki": 34952466,
               "example": ""
             },
-            { "name": "Neglect of probability", "wiki": 0, "example": "" },
-            { "name": "Anecdotal fallacy", "wiki": 0, "example": "" },
-            { "name": "Illusion of validity", "wiki": 0, "example": "" },
-            { "name": "Masked man fallacy", "wiki": 0, "example": "" },
-            { "name": "Recency illusion", "wiki": 0, "example": "" },
-            { "name": "Gambler's fallacy", "wiki": 0, "example": "" },
-            { "name": "Hot-hand fallacy", "wiki": 0, "example": "" },
-            { "name": "Illusory correlation", "wiki": 0, "example": "" },
-            { "name": "Pareidolia", "wiki": 0, "example": "" },
-            { "name": "Anthropomorphism", "wiki": 0, "example": "" }
+            {
+              "name": "Neglect of probability",
+              "wiki": 4724667,
+              "example": ""
+            },
+            { "name": "Anecdotal fallacy", "wiki": 44121406, "example": "" },
+            {
+              "name": "Illusion of validity",
+              "wiki": 34953080,
+              "example": ""
+            },
+            { "name": "Masked man fallacy", "wiki": 50778764, "example": "" },
+            { "name": "Recency illusion", "wiki": 14731512, "example": "" },
+            { "name": "Gambler's fallacy", "wiki": 12970, "example": "" },
+            { "name": "Hot-hand fallacy", "wiki": 57592305, "example": "" },
+            {
+              "name": "Illusory correlation",
+              "wiki": 1415118,
+              "example": ""
+            },
+            { "name": "Pareidolia", "wiki": 649382, "example": "" },
+            { "name": "Anthropomorphism", "wiki": 19009060, "example": "" }
           ]
         },
         {
           "name": "We fill in characteristics from stereotypes, generalities, and prior histories",
           "children": [
-            { "name": "Group attribution error", "wiki": 0, "example": "" },
-            { "name": "Ultimate attribution error", "wiki": 0, "example": "" },
-            { "name": "Stereotyping", "wiki": 0, "example": "" },
-            { "name": "Essentialism", "wiki": 0, "example": "" },
-            { "name": "Functional fixedness", "wiki": 0, "example": "" },
-            { "name": "Moral credential effect", "wiki": 0, "example": "" },
-            { "name": "Just-world hypothesis", "wiki": 0, "example": "" },
-            { "name": "Argument from fallacy", "wiki": 0, "example": "" },
-            { "name": "Authority bias", "wiki": 0, "example": "" },
-            { "name": "Automation bias", "wiki": 0, "example": "" },
-            { "name": "Bandwagon effect", "wiki": 0, "example": "" },
-            { "name": "Placebo effect", "wiki": 0, "example": "" }
+            {
+              "name": "Group attribution error",
+              "wiki": 511197,
+              "example": ""
+            },
+            {
+              "name": "Ultimate attribution error",
+              "wiki": 19678111,
+              "example": ""
+            },
+            { "name": "Stereotyping", "wiki": 152797, "example": "" },
+            { "name": "Essentialism", "wiki": 48081, "example": "" },
+            {
+              "name": "Functional fixedness",
+              "wiki": 3297512,
+              "example": ""
+            },
+            {
+              "name": "Moral credential effect",
+              "wiki": 14404736,
+              "example": ""
+            },
+            {
+              "name": "Just-world hypothesis",
+              "wiki": 855980,
+              "example": ""
+            },
+            {
+              "name": "Argument from fallacy",
+              "wiki": 234892,
+              "example": ""
+            },
+            { "name": "Authority bias", "wiki": 51394776, "example": "" },
+            { "name": "Automation bias", "wiki": 41145357, "example": "" },
+            { "name": "Bandwagon effect", "wiki": 171323, "example": "" },
+            { "name": "Placebo effect", "wiki": 10194888, "example": "" }
           ]
         },
         {
           "name": "We imagine things and people we're familiar with or fond of as better",
           "children": [
-            { "name": "Out-group homogeneity bias", "wiki": 0, "example": "" },
-            { "name": "Cross-race effect", "wiki": 0, "example": "" },
-            { "name": "In-group bias", "wiki": 0, "example": "" },
-            { "name": "Halo effect", "wiki": 0, "example": "" },
-            { "name": "Cheerleader effect", "wiki": 0, "example": "" },
-            { "name": "Positivity effect", "wiki": 0, "example": "" },
-            { "name": "Not invented here", "wiki": 0, "example": "" },
-            { "name": "Reactive devaluation", "wiki": 0, "example": "" },
-            { "name": "Well-traveled road effect", "wiki": 0, "example": "" }
+            {
+              "name": "Out-group homogeneity bias",
+              "wiki": 32588432,
+              "example": ""
+            },
+            { "name": "Cross-race effect", "wiki": 14124578, "example": "" },
+            { "name": "In-group bias", "wiki": 860063, "example": "" },
+            { "name": "Halo effect", "wiki": 673294, "example": "" },
+            { "name": "Cheerleader effect", "wiki": 47579630, "example": "" },
+            { "name": "Positivity effect", "wiki": 520196, "example": "" },
+            { "name": "Not invented here", "wiki": 60102, "example": "" },
+            {
+              "name": "Reactive devaluation",
+              "wiki": 34981918,
+              "example": ""
+            },
+            {
+              "name": "Well-traveled road effect",
+              "wiki": 25725314,
+              "example": ""
+            }
           ]
         },
         {
           "name": "We simplify probabilities and numbers to make them easier to think about",
           "children": [
-            { "name": "Mental accounting", "wiki": 0, "example": "" },
+            { "name": "Mental accounting", "wiki": 1024314, "example": "" },
             {
               "name": "Appeal to probability fallacy",
-              "wiki": 0,
+              "wiki": 915121,
               "example": ""
             },
-            { "name": "Normalcy bias", "wiki": 0, "example": "" },
-            { "name": "Murphy's Law", "wiki": 0, "example": "" },
-            { "name": "Zero sum bias", "wiki": 0, "example": "" },
-            { "name": "Survivorship bias", "wiki": 0, "example": "" },
-            { "name": "Subadditivity effect", "wiki": 0, "example": "" },
-            { "name": "Denomination effect", "wiki": 0, "example": "" },
-            { "name": "Magic number 7+-2", "wiki": 0, "example": "" }
+            { "name": "Normalcy bias", "wiki": 2019798, "example": "" },
+            { "name": "Murphy's Law", "wiki": 222268, "example": "" },
+            { "name": "Zero sum bias", "wiki": 52687491, "example": "" },
+            { "name": "Survivorship bias", "wiki": 1745325, "example": "" },
+            {
+              "name": "Subadditivity effect",
+              "wiki": 4713918,
+              "example": ""
+            },
+            {
+              "name": "Denomination effect",
+              "wiki": 23355975,
+              "example": ""
+            },
+            { "name": "Magic number 7+-2", "wiki": 435063, "example": "" }
           ]
         },
         {
           "name": "We think we know what other people are thinking",
           "children": [
-            { "name": "Illusion of transparency", "wiki": 0, "example": "" },
-            { "name": "Curse of knowledge", "wiki": 0, "example": "" },
-            { "name": "Spotlight effect", "wiki": 0, "example": "" },
-            { "name": "Extrinsic incentive error", "wiki": 0, "example": "" },
-            { "name": "Illusion of external agency", "wiki": 0, "example": "" },
+            {
+              "name": "Illusion of transparency",
+              "wiki": 6148418,
+              "example": ""
+            },
+            { "name": "Curse of knowledge", "wiki": 35009581, "example": "" },
+            { "name": "Spotlight effect", "wiki": 21766531, "example": "" },
+            {
+              "name": "Extrinsic incentive error",
+              "wiki": 34990211,
+              "example": ""
+            },
+            {
+              "name": "Illusion of external agency",
+              "wiki": 34989921,
+              "example": ""
+            },
             {
               "name": "Illusion of asymmetric insight",
-              "wiki": 0,
+              "wiki": 6148441,
               "example": ""
             }
           ]
@@ -185,20 +285,24 @@
         {
           "name": "We project our current mindset and assumptions onto the past and future",
           "children": [
-            { "name": "Telescoping effect", "wiki": 0, "example": "" },
-            { "name": "Rosy retrospection", "wiki": 0, "example": "" },
-            { "name": "Hindsight bias", "wiki": 0, "example": "" },
-            { "name": "Outcome bias", "wiki": 0, "example": "" },
-            { "name": "Moral luck", "wiki": 0, "example": "" },
-            { "name": "Declinism", "wiki": 0, "example": "" },
-            { "name": "Impact bias", "wiki": 0, "example": "" },
-            { "name": "Pessimism bias", "wiki": 0, "example": "" },
-            { "name": "Planning fallacy", "wiki": 0, "example": "" },
-            { "name": "Time-saving bias", "wiki": 0, "example": "" },
-            { "name": "Pro-innovation bias", "wiki": 0, "example": "" },
-            { "name": "Projection bias", "wiki": 0, "example": "" },
-            { "name": "Restraint bias", "wiki": 0, "example": "" },
-            { "name": "Self-consistency bias", "wiki": 0, "example": "" }
+            { "name": "Telescoping effect", "wiki": 8921111, "example": "" },
+            { "name": "Rosy retrospection", "wiki": 889659, "example": "" },
+            { "name": "Hindsight bias", "wiki": 410804, "example": "" },
+            { "name": "Outcome bias", "wiki": 4723495, "example": "" },
+            { "name": "Moral luck", "wiki": 2122523, "example": "" },
+            { "name": "Declinism", "wiki": 45087456, "example": "" },
+            { "name": "Impact bias", "wiki": 889591, "example": "" },
+            { "name": "Pessimism bias", "wiki": 27710683, "example": "" },
+            { "name": "Planning fallacy", "wiki": 903029, "example": "" },
+            { "name": "Time-saving bias", "wiki": 35530574, "example": "" },
+            {
+              "name": "Pro-innovation bias",
+              "wiki": 20002033,
+              "example": ""
+            },
+            { "name": "Projection bias", "wiki": 1116094, "example": "" },
+            { "name": "Restraint bias", "wiki": 34383484, "example": "" },
+            { "name": "Self-consistency bias", "wiki": 905646, "example": "" }
           ]
         }
       ]
@@ -209,91 +313,167 @@
         {
           "name": "To act, we must be confident we can make an impact and feel what we do is important",
           "children": [
-            { "name": "Overconfidence effect", "wiki": 0, "example": "" },
-            { "name": "Social desirability bias", "wiki": 0, "example": "" },
-            { "name": "Third-person effect", "wiki": 0, "example": "" },
-            { "name": "False consensus effect", "wiki": 0, "example": "" },
-            { "name": "Hard-easy effect", "wiki": 0, "example": "" },
-            { "name": "Lake Wobegone effect", "wiki": 0, "example": "" },
-            { "name": "Dunning-Kruger effect", "wiki": 0, "example": "" },
-            { "name": "Egocentric bias", "wiki": 0, "example": "" },
-            { "name": "Optimism bias", "wiki": 0, "example": "" },
-            { "name": "Forer effect", "wiki": 0, "example": "" },
-            { "name": "Barnum effect", "wiki": 0, "example": "" },
-            { "name": "Self-serving bias", "wiki": 0, "example": "" },
-            { "name": "Actor-observer bias", "wiki": 0, "example": "" },
-            { "name": "Illusion of control", "wiki": 0, "example": "" },
-            { "name": "Illusory superiority", "wiki": 0, "example": "" },
+            {
+              "name": "Overconfidence effect",
+              "wiki": 3080323,
+              "example": ""
+            },
+            {
+              "name": "Social desirability bias",
+              "wiki": 2955960,
+              "example": ""
+            },
+            { "name": "Third-person effect", "wiki": 2663709, "example": "" },
+            {
+              "name": "False consensus effect",
+              "wiki": 526636,
+              "example": ""
+            },
+            { "name": "Hard-easy effect", "wiki": 41068377, "example": "" },
+            {
+              "name": "Lake Wobegone effect",
+              "wiki": 10106974,
+              "example": ""
+            },
+            {
+              "name": "Dunning-Kruger effect",
+              "wiki": 23963476,
+              "example": ""
+            },
+            { "name": "Egocentric bias", "wiki": 511043, "example": "" },
+            { "name": "Optimism bias", "wiki": 7224456, "example": "" },
+            { "name": "Forer effect", "wiki": 46261634, "example": "" },
+            { "name": "Barnum effect", "wiki": 730437, "example": "" },
+            { "name": "Self-serving bias", "wiki": 511068, "example": "" },
+            {
+              "name": "Actor-observer bias",
+              "wiki": 26291558,
+              "example": ""
+            },
+            { "name": "Illusion of control", "wiki": 549136, "example": "" },
+            {
+              "name": "Illusory superiority",
+              "wiki": 17644927,
+              "example": ""
+            },
             {
               "name": "Fundamental attribution error",
-              "wiki": 0,
+              "wiki": 221319,
               "example": ""
             },
             {
               "name": "Defensive attribution hypothesis",
-              "wiki": 0,
+              "wiki": 34238291,
               "example": ""
             },
-            { "name": "Trait ascription bias", "wiki": 0, "example": "" },
-            { "name": "Effort justification", "wiki": 0, "example": "" },
-            { "name": "Risk compensation", "wiki": 0, "example": "" },
-            { "name": "Peltzman effect", "wiki": 0, "example": "" }
+            {
+              "name": "Trait ascription bias",
+              "wiki": 520237,
+              "example": ""
+            },
+            {
+              "name": "Effort justification",
+              "wiki": 21806922,
+              "example": ""
+            },
+            { "name": "Risk compensation", "wiki": 914908, "example": "" },
+            { "name": "Peltzman effect", "wiki": 5929072, "example": "" }
           ]
         },
         {
           "name": "To stay focused, we favor the immediate, relatable thing in front of us",
           "children": [
-            { "name": "Hyperbolic discounting", "wiki": 0, "example": "" },
-            { "name": "Appeal to novelty", "wiki": 0, "example": "" },
-            { "name": "Identifiable victim effect", "wiki": 0, "example": "" }
+            {
+              "name": "Hyperbolic discounting",
+              "wiki": 903376,
+              "example": ""
+            },
+            { "name": "Appeal to novelty", "wiki": 219435, "example": "" },
+            {
+              "name": "Identifiable victim effect",
+              "wiki": 24024923,
+              "example": ""
+            }
           ]
         },
         {
           "name": "To get anything done, we tend to complete things we've invested time & energy in.",
           "children": [
-            { "name": "Sunk cost fallacy", "wiki": 0, "example": "" },
-            { "name": "Irrational escalation", "wiki": 0, "example": "" },
-            { "name": "Escalation of commitment", "wiki": 0, "example": "" },
-            { "name": "Generation effect", "wiki": 0, "example": "" },
-            { "name": "Loss aversion", "wiki": 0, "example": "" },
-            { "name": "IKEA effect", "wiki": 0, "example": "" },
-            { "name": "Unit bias", "wiki": 0, "example": "" },
-            { "name": "Zero-risk bias", "wiki": 0, "example": "" },
-            { "name": "Disposition effect", "wiki": 0, "example": "" },
-            { "name": "Pseudocertainty effect", "wiki": 0, "example": "" },
+            { "name": "Sunk cost fallacy", "wiki": 526136, "example": "" },
             {
-              "name": "Processing difficulty effect",
-              "wiki": 0,
+              "name": "Irrational escalation",
+              "wiki": 3898043,
               "example": ""
             },
-            { "name": "Endowment effect", "wiki": 0, "example": "" },
-            { "name": "Backfire effect", "wiki": 0, "example": "" }
+            {
+              "name": "Escalation of commitment",
+              "wiki": 1704142,
+              "example": ""
+            },
+            { "name": "Generation effect", "wiki": 6256328, "example": "" },
+            { "name": "Loss aversion", "wiki": 547827, "example": "" },
+            { "name": "IKEA effect", "wiki": 38452770, "example": "" },
+            { "name": "Unit bias", "wiki": 36612089, "example": "" },
+            { "name": "Zero-risk bias", "wiki": 4741644, "example": "" },
+            { "name": "Disposition effect", "wiki": 3919296, "example": "" },
+            {
+              "name": "Pseudocertainty effect",
+              "wiki": 1301785,
+              "example": ""
+            },
+            {
+              "name": "Processing difficulty effect",
+              "wiki": 905646,
+              "example": ""
+            },
+            { "name": "Endowment effect", "wiki": 804737, "example": "" },
+            { "name": "Backfire effect", "wiki": 35684776, "example": "" }
           ]
         },
         {
           "name": "To avoid mistakes, we tend to preserve our autonomy and group status, and avoid irreversible decisions.",
           "children": [
-            { "name": "System justification", "wiki": 0, "example": "" },
-            { "name": "Reverse psychology", "wiki": 0, "example": "" },
-            { "name": "Reactance", "wiki": 0, "example": "" },
-            { "name": "Decoy effect", "wiki": 0, "example": "" },
-            { "name": "Social comparison bias", "wiki": 0, "example": "" },
-            { "name": "Status quo bias", "wiki": 0, "example": "" }
+            {
+              "name": "System justification",
+              "wiki": 4933873,
+              "example": ""
+            },
+            { "name": "Reverse psychology", "wiki": 702761, "example": "" },
+            { "name": "Reactance", "wiki": 18751574, "example": "" },
+            { "name": "Decoy effect", "wiki": 3536648, "example": "" },
+            {
+              "name": "Social comparison bias",
+              "wiki": 29406164,
+              "example": ""
+            },
+            { "name": "Status quo bias", "wiki": 804702, "example": "" }
           ]
         },
         {
           "name": "We favor options that appear simple or have more complete information over more complex, ambiguous options.",
           "children": [
-            { "name": "Ambiguity bias", "wiki": 0, "example": "" },
-            { "name": "Information bias", "wiki": 0, "example": "" },
-            { "name": "Belief bias", "wiki": 0, "example": "" },
-            { "name": "Rhyme as reason effect", "wiki": 0, "example": "" },
-            { "name": "Bike-shedding effect", "wiki": 0, "example": "" },
-            { "name": "Law of Triviality", "wiki": 0, "example": "" },
-            { "name": "Delmore effect", "wiki": 0, "example": "" },
-            { "name": "Conjunction fallacy", "wiki": 0, "example": "" },
-            { "name": "Occam's razor", "wiki": 0, "example": "" },
-            { "name": "Less-is-better effect", "wiki": 0, "example": "" }
+            { "name": "Ambiguity bias", "wiki": 4740896, "example": "" },
+            { "name": "Information bias", "wiki": 24446572, "example": "" },
+            { "name": "Belief bias", "wiki": 2274780, "example": "" },
+            {
+              "name": "Rhyme as reason effect",
+              "wiki": 34987502,
+              "example": ""
+            },
+            {
+              "name": "Bike-shedding effect",
+              "wiki": 4138548,
+              "example": ""
+            },
+            { "name": "Law of Triviality", "wiki": 4138548, "example": "" },
+            { "name": "Delmore effect", "wiki": 1055344, "example": "" },
+            { "name": "Conjunction fallacy", "wiki": 732729, "example": "" },
+            { "name": "Occam's razor", "wiki": 36797, "example": "" },
+            {
+              "name": "Less-is-better effect",
+              "wiki": 34987468,
+              "example": ""
+            }
           ]
         }
       ]
@@ -304,52 +484,92 @@
         {
           "name": "We edit and reinforce some memories after the fact",
           "children": [
-            { "name": "Misattribution of memory", "wiki": 0, "example": "" },
-            { "name": "Source confusion", "wiki": 0, "example": "" },
-            { "name": "Cryptomnesia", "wiki": 0, "example": "" },
-            { "name": "False memory", "wiki": 0, "example": "" },
-            { "name": "Suggestibility", "wiki": 0, "example": "" },
-            { "name": "Spacing effect", "wiki": 0, "example": "" }
+            {
+              "name": "Misattribution of memory",
+              "wiki": 31133385,
+              "example": ""
+            },
+            { "name": "Source confusion", "wiki": 31133385, "example": "" },
+            { "name": "Cryptomnesia", "wiki": 2402111, "example": "" },
+            { "name": "False memory", "wiki": 14983819, "example": "" },
+            { "name": "Suggestibility", "wiki": 155779, "example": "" },
+            { "name": "Spacing effect", "wiki": 903495, "example": "" }
           ]
         },
         {
           "name": "We discard specifics to form generalities",
           "children": [
-            { "name": "Implicit associations", "wiki": 0, "example": "" },
-            { "name": "Implicit stereotypes", "wiki": 0, "example": "" },
-            { "name": "Stereotypical bias", "wiki": 0, "example": "" },
-            { "name": "Prejudice", "wiki": 0, "example": "" },
-            { "name": "Negativity bias", "wiki": 0, "example": "" },
-            { "name": "Fading affect bias", "wiki": 0, "example": "" }
+            {
+              "name": "Implicit associations",
+              "wiki": 1791156,
+              "example": ""
+            },
+            {
+              "name": "Implicit stereotypes",
+              "wiki": 41241758,
+              "example": ""
+            },
+            { "name": "Stereotypical bias", "wiki": 905646, "example": "" },
+            { "name": "Prejudice", "wiki": 77182, "example": "" },
+            { "name": "Negativity bias", "wiki": 9445847, "example": "" },
+            { "name": "Fading affect bias", "wiki": 37839610, "example": "" }
           ]
         },
         {
           "name": "We reduce events and lists to their key elements",
           "children": [
-            { "name": "Peak–end rule", "wiki": 0, "example": "" },
-            { "name": "Leveling and sharpening", "wiki": 0, "example": "" },
-            { "name": "Misinformation effect", "wiki": 0, "example": "" },
-            { "name": "Serial recall effect", "wiki": 0, "example": "" },
-            { "name": "List-length effect", "wiki": 0, "example": "" },
-            { "name": "Duration neglect", "wiki": 0, "example": "" },
-            { "name": "Modality effect", "wiki": 0, "example": "" },
-            { "name": "Memory inhibition", "wiki": 0, "example": "" },
-            { "name": "Primacy effect", "wiki": 0, "example": "" },
-            { "name": "Recency effect", "wiki": 0, "example": "" },
-            { "name": "Part-list cueing effect", "wiki": 0, "example": "" },
-            { "name": "Serial position effect", "wiki": 0, "example": "" },
-            { "name": "Suffix effect", "wiki": 0, "example": "" }
+            { "name": "Peak–end rule", "wiki": 548265, "example": "" },
+            {
+              "name": "Leveling and sharpening",
+              "wiki": 40932207,
+              "example": ""
+            },
+            {
+              "name": "Misinformation effect",
+              "wiki": 33106911,
+              "example": ""
+            },
+            { "name": "Serial recall effect", "wiki": 905684, "example": "" },
+            { "name": "List-length effect", "wiki": 905646, "example": "" },
+            { "name": "Duration neglect", "wiki": 34980847, "example": "" },
+            { "name": "Modality effect", "wiki": 16314501, "example": "" },
+            { "name": "Memory inhibition", "wiki": 5506325, "example": "" },
+            { "name": "Primacy effect", "wiki": 706249, "example": "" },
+            { "name": "Recency effect", "wiki": 706267, "example": "" },
+            {
+              "name": "Part-list cueing effect",
+              "wiki": 5506825,
+              "example": ""
+            },
+            {
+              "name": "Serial position effect",
+              "wiki": 55627004,
+              "example": ""
+            },
+            { "name": "Suffix effect", "wiki": 40237502, "example": "" }
           ]
         },
         {
           "name": "We store memories differently based on how they were experienced",
           "children": [
-            { "name": "Levels of processing effect", "wiki": 0, "example": "" },
-            { "name": "Absent-mindedness", "wiki": 0, "example": "" },
-            { "name": "Testing effect", "wiki": 0, "example": "" },
-            { "name": "Next-in-line effect", "wiki": 0, "example": "" },
-            { "name": "Google effect", "wiki": 0, "example": "" },
-            { "name": "Tip of the tongue phenomenon", "wiki": 0, "example": "" }
+            {
+              "name": "Levels of processing effect",
+              "wiki": 6275392,
+              "example": ""
+            },
+            { "name": "Absent-mindedness", "wiki": 8339148, "example": "" },
+            { "name": "Testing effect", "wiki": 905659, "example": "" },
+            {
+              "name": "Next-in-line effect",
+              "wiki": 53975739,
+              "example": ""
+            },
+            { "name": "Google effect", "wiki": 32639051, "example": "" },
+            {
+              "name": "Tip of the tongue phenomenon",
+              "wiki": 5555452,
+              "example": ""
+            }
           ]
         }
       ]
